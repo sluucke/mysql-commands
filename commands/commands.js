@@ -20,7 +20,7 @@ const rows = [
   { id: 15, command: 'alter table [table name] change [old column name] [new column name] varchar (50);', description: 'Change a column name' },
   { id: 16, command: 'alter table [table name] drop index [colmn name];', description: 'Delete unique from table' },
   { id: 17, command: 'CREATE TABLE [table name] (column1 datatype, column2 datatype, column3 datatype);', description: 'Create a new table in DB' },
-  { id: 18, command: 'CREATE TABLE user (firstName VARCHAR(20),lasName VARCHAR(20), age INT);', description: 'Example create a new table in DB' },
+  { id: 18, command: 'CREATE TABLE user (firstName VARCHAR(20),lastName VARCHAR(20), age INT);', description: 'Example create a new table in DB' },
 ];
 
 
