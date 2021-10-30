@@ -20,6 +20,8 @@ export default function MyApp(props) {
         <meta name="description" content="MySQL Basic Commands for new users" />
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <meta name="google-site-verification" content="wgiThpvCBhWjOdJ5YzCKV2pBtrG790AL8onTG1L3g9g" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://mysql-commands.vercel.app/favicon.ico" />
       </Head>
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
