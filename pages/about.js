@@ -1,11 +1,10 @@
 import * as React from 'react';
-import loadable from '@loadable/component'
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-const Disclaimer = loadable(() => import('../src/Disclaimer'));
-const Link = loadable(() => import('../src/Link'));
-const Copyright = loadable(() => import('../src/Copyright'));
+import Disclaimer from '../src/Disclaimer';
+import Link from '../src/Link';
+import Copyright from '../src/Copyright';
 import MySqlLogo from '../assets/mysql.png'
 import Image from 'next/image'
 export default function About() {
